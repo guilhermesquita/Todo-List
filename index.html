@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Work Check</title>
+</head>
+<body>
+    <div class="todo">
+        <div class="todo-title">
+            Work Check
+        </div>
+
+        <div class="todo-list">
+            <label class="todo-item">
+                <input type="checkbox">
+                <div>teste de Item 1</div>
+                <input type="button" value="X">
+            </label>
+            <label class="todo-item">
+                <input type="checkbox">
+                <div>teste de Item 2</div>
+                <input type="button" value="X">
+            </label>
+        </div>
+
+        <div class="todo-new-item" id="todonew">
+            <div>&and;</div>
+            <input type="text" id="new-todo" placeholder="Digite e precione enter para adicionar a tarefa" onclick="colorChange()" onmouseout="colorBack()" >
+            <div>&and;</div>
+        </div>
+
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
